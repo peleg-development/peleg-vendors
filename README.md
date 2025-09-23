@@ -1,5 +1,6 @@
 # Peleg Vendors
 # Support Discord: https://discord.gg/ZVWbpqfYj5
+# Tebex: https://peleg-development.tebex.io/
 A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks
 
 ## Features
