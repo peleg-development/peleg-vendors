@@ -47,7 +47,7 @@ A comprehensive vendor/shop system for FiveM with support for both ESX and QBCor
    ```
 
 ## Support
-# Discord: https://discord.gg/ZVWbpqfYj5
+Discord: https://discord.gg/ZVWbpqfYj5
 For support and updates, please check the resource documentation or contact the author (Me)
 
 ## License.
