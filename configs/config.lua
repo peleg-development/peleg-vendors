@@ -34,7 +34,7 @@
 ---@field jobRequirement? VendorJobRequirement 
 ---@field blip? { enabled: boolean, sprite?: number, color?: number, scale?: number, label?: string }
 
-Config = Config or {}
+Config = {}
 
 -- Core stack selection
 Config.Framework = 'auto'       -- 'auto' | 'qb' | 'esx'
