@@ -1,6 +1,6 @@
 # Peleg Vendors
-
-A comprehensive vendor system for FiveM with support for both ESX and QBCore frameworks, featuring a modern React-based UI, automatic framework detection, and advanced limit system.
+# Discord: https://discord.gg/ZVWbpqfYj5
+A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks
 
 ## Features
 
@@ -47,10 +47,10 @@ A comprehensive vendor system for FiveM with support for both ESX and QBCore fra
    ```
 
 ## Support
+# Discord: https://discord.gg/ZVWbpqfYj5
+For support and updates, please check the resource documentation or contact the author (Me)
 
-For support and updates, please check the resource documentation or contact the author.
-
-## License
+## License.
 
 This resource is provided as-is. Please respect the terms of use and licensing requirements.
 
