@@ -1,18 +1,18 @@
 ---@class VendorItemDef
----@field name string        -- item name (database name)
----@field label string       -- UI label
----@field price number       -- price per unit (paid out to the seller)
----@field category? string   -- category id (for UI grouping)
----@field limitPerPlayer? number  -- optional daily limit per player
----@field limitGlobal? number     -- optional daily global limit
+---@field name string     
+---@field label string  
+---@field price number       
+---@field category? string  
+---@field limitPerPlayer? number  
+---@field limitGlobal? number    
 
 ---@class VendorJobRequirement
 ---@field job string
 ---@field minGrade number
 
 ---@class VendorItemDefExt: VendorItemDef
----@field buyPrice? number        -- price per unit to buy from vendor
----@field jobRequirement? VendorJobRequirement  -- requirement to view/buy
+---@field buyPrice? number    
+---@field jobRequirement? VendorJobRequirement 
 
 ---@class VendorCategoryDef
 ---@field id string
@@ -23,15 +23,15 @@
 ---@class VendorDef
 ---@field id string
 ---@field label string
----@field icon? string               -- shop icon (UI)
+---@field icon? string           
 ---@field model string
 ---@field coords vector3
 ---@field heading number
 ---@field scenario? string
 ---@field theme? number              -- theme number (1 = default, 2 = premium dark)
----@field categories? VendorCategoryDef[]  -- optional explicit categories with icon + order
+---@field categories? VendorCategoryDef[]  
 ---@field items (VendorItemDef|VendorItemDefExt)[]
----@field jobRequirement? VendorJobRequirement  -- job/grade requirement to access vendor (set to {} to disable)
+---@field jobRequirement? VendorJobRequirement 
 ---@field blip? { enabled: boolean, sprite?: number, color?: number, scale?: number, label?: string }
 
 Config = Config or {}
@@ -55,7 +55,7 @@ Config.Limits = {
     Enabled = false,       -- set true to enable
 
     ---@NOTE: if u dont want to use auto migration and u still want limits run the sql file stock.sql
-    AutoMigrate = false,    -- create table automatically
+    AutoMigrate = false,    -- creates table automatically
 }
 
 -- Vendors definition: add as many as you like
@@ -72,8 +72,8 @@ Config.Vendors = {
         jobRequirement = {}, -- No job requirement
         blip = {
             enabled = true,
-            sprite = 68, -- Fish icon
-            color = 3, -- Green
+            sprite = 68,
+            color = 3, 
             scale = 0.8,
             label = 'Fishmonger'
         },
@@ -100,8 +100,8 @@ Config.Vendors = {
         jobRequirement = { job = 'hunter', minGrade = 0 }, -- Requires hunter job
         blip = {
             enabled = true,
-            sprite = 141, -- Hunter icon
-            color = 1, -- Red
+            sprite = 141,
+            color = 1,
             scale = 0.8,
             label = 'Game Buyer'
         },
