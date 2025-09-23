@@ -1,5 +1,5 @@
 # Peleg Vendors
-# Discord: https://discord.gg/ZVWbpqfYj5
+# Support Discord: https://discord.gg/ZVWbpqfYj5
 A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks
 
 ## Features
@@ -47,8 +47,7 @@ A comprehensive vendor/shop system for FiveM with support for both ESX and QBCor
    ```
 
 ## Support
-Discord: https://discord.gg/ZVWbpqfYj5
-For support and updates, please check the resource documentation or contact the author (Me)
+Support: https://discord.gg/ZVWbpqfYj5
 
 ## License.
 
