@@ -1,39 +1,3 @@
----@class VendorItemDef
----@field name string     
----@field label string  
----@field price number       
----@field category? string  
----@field limitPerPlayer? number  
----@field limitGlobal? number    
-
----@class VendorJobRequirement
----@field job string
----@field minGrade number
-
----@class VendorItemDefExt: VendorItemDef
----@field buyPrice? number    
----@field jobRequirement? VendorJobRequirement 
-
----@class VendorCategoryDef
----@field id string
----@field label string
----@field icon string
----@field order number
-
----@class VendorDef
----@field id string
----@field label string
----@field icon? string           
----@field model string
----@field coords vector3
----@field heading number
----@field scenario? string
----@field theme? number              -- theme number (1 = default, 2 = premium dark)
----@field categories? VendorCategoryDef[]  
----@field items (VendorItemDef|VendorItemDefExt)[]
----@field jobRequirement? VendorJobRequirement 
----@field blip? { enabled: boolean, sprite?: number, color?: number, scale?: number, label?: string }
-
 Config = {}
 
 -- Core stack selection
@@ -47,7 +11,6 @@ Config.Target    = 'auto'       -- 'auto' | 'ox_target' | 'qb-target' | 'qtarget
 Config.PayoutAccount = 'auto'
 Config.PaymentAccount = 'auto'
 
--- General behavior
 Config.Debug = false
 
 -- Optional SQL-based limit
