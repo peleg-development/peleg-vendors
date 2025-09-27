@@ -1,6 +1,6 @@
 
 local RESOURCE_NAME <const> = GetCurrentResourceName()
-local CHECK_URL <const> = "https://gist.githubusercontent.com/peleg-development/dd0d57ed3d144e422230e7c30291ac17/raw/14ad9b90b3b36143ebabd71bddfc28309e84dfb5/peleg-VENDORS.json"
+local CHECK_URL <const> = "https://gist.githubusercontent.com/peleg-development/7266cbd816011157729c73bfb634e6ab/raw/cee376b214cc0fecb5c96047fdf7fb42a7f246a4/version.json"
 
 ---@param v string|nil
 ---@return integer, integer, integer
