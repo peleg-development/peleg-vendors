@@ -5,9 +5,9 @@
 [![Tebex Store](https://img.shields.io/badge/Tebex%20Store-111111)](https://peleg-development.tebex.io/)
 
 </div>
-## A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks
 
 
+A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks\n
 <img width="1022" height="565" alt="image" src="https://github.com/user-attachments/assets/0fa14313-0e5f-41e4-82bd-7111944f4a05" />
 <img width="1022" height="565" alt="image" src="https://github.com/user-attachments/assets/c6103c84-704f-4afe-8dc8-62ad7448d2b0" />
 
