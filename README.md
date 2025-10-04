@@ -10,8 +10,9 @@
 A comprehensive vendor/shop system for FiveM with support for both ESX and QBCore/QBOX frameworks
 <p align="center">
   <img src="https://github.com/user-attachments/assets/0fa14313-0e5f-41e4-82bd-7111944f4a05" width="45%" />
-  <img src="https://github.com/user-attachments/assets/c6103c84-704f-4afe-8dc8-62ad7448d2b0" width="45%" />
+  <img src="https://github.com/user-attachments/assets/03f9627e-9cdf-4e62-b286-12751912c088" width="45%" />
 </p>
+
 
 ## Features
 
