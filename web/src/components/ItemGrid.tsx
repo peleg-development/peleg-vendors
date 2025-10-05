@@ -38,8 +38,8 @@ const ItemGrid: React.FC<ItemGridProps> = ({
 
   return (
     <div className="flex-1 p-3 overflow-hidden">
-      <div className="h-full overflow-y-auto">
-        <div className="grid grid-cols-4 gap-4 h-full">
+      <div className="h-full overflow-y-auto scrollbar-thin">
+        <div className="grid grid-cols-[repeat(auto-fit,minmax(180px,1fr))] gap-4 auto-rows-[180px] p-1">
           {items.filter(Boolean).map((item) => (
             <ItemTile
               key={item.name}

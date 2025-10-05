@@ -84,12 +84,12 @@ const ItemTile: React.FC<ItemTileProps> = ({
 
   return (
     <div
-      className={`relative group aspect-square ${
+      className={`relative group w-full h-full ${
         (!item.buyPrice && available === 0) ? 'opacity-50' : ''
       }`}
     >
       <div className={getThemeClasses("relative w-full h-full bg-surface-1 hover:bg-surface-2 rounded overflow-hidden")}>
-        <button onClick={onClick} disabled={!item.buyPrice && available === 0} className="absolute inset-0">
+        <button onClick={onClick} disabled={!item.buyPrice && available === 0} className="absolute inset-0 cursor-pointer">
           <ItemImage itemName={item.name} className="w-full h-full" />
 
           {!isSelected && (
